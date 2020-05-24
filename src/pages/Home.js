@@ -1,16 +1,8 @@
 import React from 'react'
-import { ListOfCategories } from '../components/ListOfCategories'
-import { ListOfPhotoCards } from '../container/ListOfPhotoCards'
-import { Layout } from '../components/Layout'
-const HomePage = ({ categoryId }) => {
+import { Hero } from '../components/Hero'
+
+export const Home = () => {
   return (
-    <Layout title='Petgram - Tu app de fotos de mascotas' subtitle='Con Petgram puedes encontrar fotos de animales domesticos muy bonitos'>
-      <ListOfCategories />
-      <ListOfPhotoCards categoryId={categoryId} />
-    </Layout>
+    <Hero saludo='Hola hero' />
   )
 }
-
-export const Home = React.memo(HomePage, (prevProps, props) => {
-  return prevProps.categoryId === props.categoryId
-})
