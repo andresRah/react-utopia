@@ -45,10 +45,10 @@ const ListOfCategoriesComponent = () => {
   )
 
   return (
-    <Fragment>
+    <>
       {renderList()}
       {showFixed && renderList(true)}
-    </Fragment>
+    </>
   )
 }
 
