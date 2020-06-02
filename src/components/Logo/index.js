@@ -1,9 +1,7 @@
 import React from 'react'
 import { Svg } from './styles'
-import { Link } from '@reach/router'
 
 export const Logo = (props) => (
-  <Link to='/'>
     <Svg
       {...props}
       id="prefix__Layer_1"
@@ -110,5 +108,4 @@ export const Logo = (props) => (
       >
       </text>
     </Svg>
-  </Link>
 )

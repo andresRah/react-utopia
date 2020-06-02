@@ -1,6 +1,0 @@
-{
-    "baseUrl": "https://petgram.andresrah.now.sh/",
-    "chromeWebSecurity": false,
-    "viewportWidth": 500,
-    "viewportHeight": 800
-}
